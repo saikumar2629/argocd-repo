@@ -10,11 +10,11 @@ spec:
   template:
     metadata:
       labels:
-        app: saikumar
+        app: nginx-demo
     spec:
       containers:
       - name: saikumargollu
-        image: nginx
+        image: saikumar/cmd
         ports:
         - containerPort: 80
 
