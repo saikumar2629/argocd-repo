@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: saikumargollu
-        image: httpd
+        image: saikumargollu/cmd
         ports:
         - containerPort: 80
 
