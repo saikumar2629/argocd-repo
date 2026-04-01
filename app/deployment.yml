@@ -13,7 +13,7 @@ spec:
         app: nginx-demo
     spec:
       containers:
-      - name: saikumargollu/cmd
+      - name: saikumargollu
         image: nginx
         ports:
         - containerPort: 80
